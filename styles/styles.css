@@ -23,6 +23,7 @@
 
 body {
   font-family: var(--main-font);
+  background-color: var(--white);
 }
 
 h1 {
