@@ -1,7 +1,7 @@
 /* Common */
 /* font  */
 :root {
-  --main-font: "Roboto", "Raleway", sans-serif;
+  --main-font: "Roboto", sans-serif;
   --main-font-style: normal;
 }
 
@@ -24,6 +24,7 @@
 body {
   font-family: var(--main-font);
   background-color: var(--white);
+  color: var(--slate);
 }
 
 h1 {
@@ -52,7 +53,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
 }
 
 ul {
