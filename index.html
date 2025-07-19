@@ -5,23 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webstudio</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <!--modern normalizer-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
 </head>
 
 <body>
   <!--header and adress-->
-  <header>
-    <nav>
+  <header class="header">
+    <nav class="header-navigation">
       <!--logo-->
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
       <!--navigation-->
-      <ul>
+      <ul class="navigation-text">
         <li><a href="">Studio</a></li>
         <li><a href="">Portfolio</a></li>
         <li><a href="">Contacts</a></li>
       </ul>
     </nav>
     <!--adress-->
-    <address>
+    <address class="header-address">
       <ul>
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -35,17 +48,19 @@
 
   <!--main page-->
   <main>
-    <!--Section_1 - h1 title -->
-    <section>
-      <h1>Effective Solutions for Your Business</h1>
-      <button type="button">Order Service</button>
+    <!--Section hero-->
+    <section class="hero-section">
+      <h1 class="hero-section-title">Effective Solutions for Your Business</h1>
+
+      <button type="button" class="hero-btn">Order Service</button>
+
     </section>
 
-    <!--section_2 - benefits -->
-    <section>
+    <!--section 1 features-->
+    <section class="feature-section">
 
       <h2 class="visually-hidden">Benefits</h2>
-      <ul>
+      <ul class="feature-list">
         <li>
           <h3>Strategy</h3>
           <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -65,38 +80,80 @@
       </ul>
     </section>
 
-    <!--section_2 - team members -->
-    <section>
-      <h2>Our Team</h2>
+    <!--section 2 team card-->
+    <section class="team-card-section">
+      <h2 class="team-card-title">Our Team</h2>
       <ul>
-        <li>
-          <img src="./images/img-mark-guerrero.jpg" alt="Mark Guerrero" width=264>
+        <li class="team-card">
+          <img src="./images/img-team-icon/img-mark-guerrero.jpg" alt="Mark Guerrero" width=264>
           <h3>Mark Guerrero</h3>
           <p>Product Designer</p>
         </li>
-        <li>
-          <img src="./images/img-tom-ford.jpg" alt="Tom Ford" width=264>
+        <li class="team-card">
+          <img src="./images/img-team-icon//img-tom-ford.jpg" alt="Tom Ford" width=264>
           <h3>Tom Ford</h3>
           <p>Frontend Developer</p>
         </li>
-        <li>
-          <img src="./images/img-camila-garcia.jpg" alt="Camila Garcia" width=264>
+        <li class="team-card">
+          <img src="./images/img-team-icon//img-camila-garcia.jpg" alt="Camila Garcia" width=264>
           <h3>Camila Garcia</h3>
           <p>Marketing</p>
         </li>
-        <li>
-          <img src="./images/img-daniel-wilson.jpg" alt="Daniel Wilson" width=264>
+        <li class="team-card">
+          <img src="./images/img-team-icon//img-daniel-wilson.jpg" alt="Daniel Wilson" width=264>
           <h3>Daniel Wilson</h3>
           <p>UI Designer</p>
         </li>
       </ul>
     </section>
+
+    <!--section 3 portfolio-->
+    <section class="portfolio-section">
+      <h2 class="portfolio-title">Our Portfolio</h2>
+      <!--first row-->
+      <ul class="portfolio-list">
+        <li class="portfolio-card">
+          <img src="./images/img-porfolio/banking-app.jpg" alt="Banking App">
+          <h3>Banking App</h3>
+          <p>App</p>
+        </li>
+        <li class="portfolio-card">
+          <img src="./images/img-porfolio/cashless-payment.jpg" alt="Cashless Payment">
+          <h3>Cashless Payment</h3>
+          <p>Marketing</p>
+        </li>
+        <li class="portfolio-card">
+          <img src="./images/img-porfolio/meditation-app.jpg" alt="Meditation App">
+          <h3>Meditation App</h3>
+          <p>App</p>
+        </li>
+      </ul>
+      <!--second row-->
+      <ul>
+        <li class="portfolio-card">
+          <img src="./images/img-porfolio/taxi-service.jpg" alt="Taxi Service">
+          <h3>Taxi Service</h3>
+          <p>Marketing</p>
+        </li>
+        <li class="portfolio-card">
+          <img src="./images/img-porfolio/screen-illustrations.jpg" alt="Screen Illustrations">
+          <h3>Screen Illustrations</h3>
+          <p>Design</p>
+        </li>
+        <li class="portfolio-card">
+          <img src="./images/img-porfolio/online-courses.jpg" alt="Online Courses">
+          <h3>Online Courses</h3>
+          <p>Marketing</p>
+        </li>
+      </ul>
+    </section>
+
   </main>
 
   <!--footer-->
   <footer>
     <!--logo-->
-    <a href="./index.html">WebStudio</a>
+    <p class="logo"><span class="logo-web">Web</span>Studio</p>
     <!--call to action-->
     <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
   </footer>
