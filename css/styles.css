@@ -34,8 +34,16 @@ h1 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   font-style: var(--main-font-style);
+  text-align: center;
+  color: var(--white);
 }
 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-align: center;
 }
 h3 {
   font-weight: 500;
@@ -116,10 +124,7 @@ address {
 .hero-section {
   background-color: var(--navy-blue);
 }
-.hero-section-title {
-  color: var(--white);
-  text-align: center;
-}
+
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
@@ -139,11 +144,19 @@ address {
 .benefits-section {
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
+
 .benefits-list {
 }
 .benefits-list-title {
-  text-align: center;
 }
 
 /*3 section - team card*/
@@ -159,21 +172,29 @@ address {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+.team-card-list {
+  background-color: var(--white);
+}
+
 .team-card {
+}
+.team-card-name {
+  text-align: center;
+}
+.team-card-text {
+  text-align: center;
 }
 
 /*4 section - portfolio*/
 .portfolio-section {
 }
 .portfolio-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 .portfolio-list {
 }
 .portfolio-card {
+}
+.portfolio-card-title {
+}
+.portfolio-card-text {
 }
