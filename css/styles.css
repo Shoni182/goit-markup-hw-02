@@ -91,7 +91,7 @@ span {
 .header-navigation {
 }
 .nav-text {
-  color: var(--slate);
+  color: var(--grey);
 }
 .nav-text:active,
 .nav-text:focus,
@@ -145,7 +145,6 @@ address {
 .benefits-section {
 }
 .visually-hidden {
-  display: none;
 }
 
 .benefits-list {
