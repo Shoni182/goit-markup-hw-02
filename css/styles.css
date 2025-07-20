@@ -135,12 +135,15 @@ address {
   background-color: var(--ocean);
 }
 
-/*2 section - features*/
-.feature-section {
+/*2 section - benefits*/
+.benefits-section {
 }
 .visually-hidden {
 }
-.feature-list {
+.benefits-list {
+}
+.benefits-list-title {
+  text-align: center;
 }
 
 /*3 section - team card*/
