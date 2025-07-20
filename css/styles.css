@@ -5,7 +5,6 @@
   --logo-font: "Raleway", sans-serif;
   --main-font-style: normal;
 }
-
 /* color */
 :root {
   --iris: #4d5ae5;
@@ -21,46 +20,11 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 }
-
 body {
   font-family: var(--main-font);
   background-color: var(--white);
   color: var(--slate);
 }
-
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  font-style: var(--main-font-style);
-  text-align: center;
-  color: var(--white);
-}
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-  text-align: center;
-  text-transform: capitalize;
-}
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 ul {
   list-style-type: none;
 }
@@ -70,7 +34,6 @@ a {
 }
 
 /*header and adress*/
-
 .header {
 }
 .logo {
@@ -108,7 +71,6 @@ span {
 address {
   font-style: normal;
 }
-
 .address-text {
   font-weight: 400;
   font-size: 16px;
@@ -125,7 +87,15 @@ address {
 .hero-section {
   background-color: var(--navy-blue);
 }
-
+.hero-section-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-style: var(--main-font-style);
+  text-align: center;
+  color: var(--white);
+}
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
@@ -135,7 +105,6 @@ address {
   color: var(--white);
   cursor: pointer;
 }
-
 .hero-btn:focus,
 .hero-btn:hover {
   background-color: var(--ocean);
@@ -150,9 +119,17 @@ address {
 .benefits-list {
 }
 .benefits-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
-
-.benefits-list-text {
+.benefits-list-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*3 section - team card*/
@@ -160,17 +137,32 @@ address {
   background-color: var(--cloud);
 }
 .team-card-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
 }
 .team-card-list {
 }
-
 .team-card {
   background-color: var(--white);
 }
 .team-card-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
   text-align: center;
 }
-.team-card-text {
+.team-card-role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -178,21 +170,40 @@ address {
 .portfolio-section {
 }
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
 .portfolio-card {
 }
 .portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
-.portfolio-card-text {
+.portfolio-card-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*footer- portfolio*/
 .footer-section {
   background-color: var(--navy-blue);
 }
-
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--cloud);
 }
 .footer-logo-studio {
