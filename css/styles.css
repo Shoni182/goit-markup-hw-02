@@ -44,6 +44,7 @@ h2 {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   text-align: center;
+  text-transform: capitalize;
 }
 h3 {
   font-weight: 500;
@@ -145,13 +146,8 @@ address {
 }
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 .benefits-list {
@@ -159,24 +155,20 @@ address {
 .benefits-list-title {
 }
 
+.benefits-text {
+}
+
 /*3 section - team card*/
 .team-card-section {
   background-color: var(--cloud);
 }
 .team-card-title {
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
 .team-card-list {
-  background-color: var(--white);
 }
 
 .team-card {
+  background-color: var(--white);
 }
 .team-card-name {
   text-align: center;
@@ -197,4 +189,15 @@ address {
 .portfolio-card-title {
 }
 .portfolio-card-text {
+}
+/*footer- portfolio*/
+.footer-section {
+  background-color: var(--navy-blue);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
+.footer-logo-studio {
+  color: var(--cloud);
 }
