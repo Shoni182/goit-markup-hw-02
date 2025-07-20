@@ -145,9 +145,7 @@ address {
 .benefits-section {
 }
 .visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  display: none;
 }
 
 .benefits-list {
