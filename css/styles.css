@@ -2,6 +2,7 @@
 /* font  */
 :root {
   --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
   --main-font-style: normal;
 }
 
@@ -68,25 +69,49 @@ a {
 .header {
 }
 .logo {
+  font-family: var(--logo-font);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.logo-web {
+span {
+  color: var(--navy-blue);
+}
+.logo {
   color: var(--iris);
 }
+/*header - navigation*/
 .header-navigation {
 }
-.navigation-text {
+.nav-text {
+  color: var(--slate);
+}
+.nav-text:active,
+.nav-text:focus,
+.nav-text:hover {
+  color: var(--ocean);
+}
+
+.navigation-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
 }
-.header-address {
+
+.address-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.address-text:focus,
+.address-text:hover {
+  color: var(--ocean);
 }
 
 /*Section hero*/
