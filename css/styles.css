@@ -36,10 +36,6 @@ h1 {
   font-style: var(--main-font-style);
 }
 h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
 }
 h3 {
   font-weight: 500;
@@ -100,9 +96,11 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+address {
+  font-style: normal;
+}
 
 .address-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -114,12 +112,13 @@ span {
   color: var(--ocean);
 }
 
-/*Section hero*/
+/*1 section - hero*/
 .hero-section {
   background-color: var(--navy-blue);
 }
 .hero-section-title {
   color: var(--white);
+  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
@@ -130,26 +129,46 @@ span {
   color: var(--white);
   cursor: pointer;
 }
-/*section 1 features*/
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: var(--ocean);
+}
+
+/*2 section - features*/
 .feature-section {
 }
 .visually-hidden {
 }
 .feature-list {
 }
-/*section 2 team card*/
+
+/*3 section - team card*/
 .team-card-section {
   background-color: var(--cloud);
 }
 .team-card-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .team-card {
 }
 
-/*section 3 portfolio*/
+/*4 section - portfolio*/
 .portfolio-section {
 }
 .portfolio-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .portfolio-list {
 }
