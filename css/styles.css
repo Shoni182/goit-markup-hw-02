@@ -88,14 +88,14 @@ span {
   color: var(--iris);
 }
 /*header - navigation*/
-.header-navigation {
+.header-nav {
 }
-.nav-text {
+.header-nav-link {
   color: var(--grey);
 }
-.nav-text:active,
-.nav-text:focus,
-.nav-text:hover {
+.header-nav-link:active,
+.header-nav-link:focus,
+.header-nav-link:hover {
   color: var(--ocean);
 }
 
@@ -152,7 +152,7 @@ address {
 .benefits-list-title {
 }
 
-.benefits-text {
+.benefits-list-text {
 }
 
 /*3 section - team card*/
